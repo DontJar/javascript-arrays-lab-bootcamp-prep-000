@@ -27,3 +27,9 @@ function destructivelyRemoveFirstKitten() {
 function appendKitten(name) {
   ([...kittens, "Broom"]);
 }
+
+var kittens = ["Milo", "Otis", "Garfield"];
+
+function removeLastKitten() {
+  kittens.slice(0,-1);
+}
