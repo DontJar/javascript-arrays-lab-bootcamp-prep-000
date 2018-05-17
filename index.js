@@ -29,3 +29,9 @@ var kittens = ["Milo", "Otis", "Garfield"];
 function appendKitten(name) {
   return [...kittens, "Broom"];
 }
+
+var kittens = ["Milo", "Otis", "Garfield"];
+
+function appendKitten(name) {
+  return ["Broom", ...kittens];
+}
